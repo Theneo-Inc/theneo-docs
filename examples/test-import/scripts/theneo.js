@@ -15,7 +15,7 @@ Theneo({
 
     importOption: ImportOption.OVERWRITE,
   },
-  SwaggerOptions: {
+  SpecOptions: {
     info: {
       version: "1.0.0",
       title: "Albums Store",

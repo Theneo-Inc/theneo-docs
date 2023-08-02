@@ -49,9 +49,9 @@ const TheneoOptions = {
 };
 ```
 
-3.  Configure the Swagger options:
+3.  Configure the Spec options:
 ```javascript
-const SwaggerOptions = {
+const SpecOptions = {
   info: {
     version: "1.0.0",
     title: "Albums Store",
@@ -77,7 +77,7 @@ const SwaggerOptions = {
 ```javascript
 Theneo({
   TheneoOptions,
-  SwaggerOptions,
+  SpecOptions,
 });
 
 ```

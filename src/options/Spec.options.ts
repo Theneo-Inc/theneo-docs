@@ -1,4 +1,4 @@
-export class SwaggerOptions {
+export class SpecOptions {
     info: {
         version: string,
         title: string,
