@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "theneo": "^1.0.3"
+    "theneo": "^1.1.0"
   }
 }

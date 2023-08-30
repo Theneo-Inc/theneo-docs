@@ -7,7 +7,7 @@ import { GeneratorOptions } from "./options/generator.options";
 import { ImportOption } from "./enums/ImportOption.enum";
  
 
-const IMPORT_ENDPOINT = "https://api.theneo.io/v2/project/:projectSlug/import/specfile";
+const IMPORT_ENDPOINT = "https://api.theneo.io/project/:projectSlug/import/specfile";
 
 const main = async (generatorOptions: GeneratorOptions) => {
     const { TheneoOptions, SpecOptions } = generatorOptions;
